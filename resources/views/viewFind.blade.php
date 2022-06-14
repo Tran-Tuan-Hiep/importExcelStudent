@@ -51,6 +51,10 @@
     table{
         margin-top: 50px;
     }
+    th{
+        background-color: #5cb85c;
+        text-align: center;
+    }
 </style>
 <body>
     <div class="container">
@@ -80,10 +84,10 @@
             <table class="table table-bordered table-hover">
                 <thead>
                     <tr>
-                        <td style="width: 150px">Mã học sinh</td>
-                        <td>Họ tên</td>
-                        <td>Giới tính</td>
-                        <td>Địa chỉ</td>
+                        <th style="width: 150px">Mã học sinh</th>
+                        <th>Họ tên</th>
+                        <th>Giới tính</th>
+                        <th>Địa chỉ</th>
                     </tr>
                 </thead>
                 <tbody>
